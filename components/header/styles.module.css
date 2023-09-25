@@ -1,0 +1,32 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainer {
+  display: flex;
+  gap: 32px;
+}
+
+.navLink {
+  font-weight: 500;
+}
+
+.navLink:hover {
+  color: var(--DarkGrayishBlue);
+}
+
+.navButton {
+  background: var(--BrightRed);
+  padding: 14px 32px;
+  border-radius: 25px;
+  color: var(--VaryLightGray);
+  font-size: 14px;
+  box-shadow: var(--BrightRed) 0px 7px 30px -10px;
+  transition: ease-in-out 0.3s;
+}
+
+.navButton:hover {
+  background: hsla(12, 88%, 59%, 0.7);
+}

@@ -1,0 +1,44 @@
+.footer {
+  background-color: var(--VeryDarkBlue);
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icons svg {
+  color: var(--VaryLightGray);
+  font-size: 20px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+.icons svg:hover {
+  color: var(--BrightRed);
+}
+
+.linkWrapper a {
+  color: var(--VaryLightGray);
+}
+.linkWrapper a:hover {
+  color: var(--BrightRed);
+}
