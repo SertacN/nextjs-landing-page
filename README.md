@@ -49,7 +49,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://nextjs-landing-page-opal.vercel.app/)
+- Live Site URL: [Click Here](https://nextjs-landing-page-opal.vercel.app/)
 
 ## My process
 
