@@ -29,14 +29,14 @@ function Footer() {
         </div>
         <div className={styles.linkWrapper}>
           <Link href="/">Home</Link>
-          <Link href="/">Pricing</Link>
-          <Link href="/">Products</Link>
-          <Link href="/">About Us</Link>
+          <Link href="/pricing">Pricing</Link>
+          <Link href="/products">Products</Link>
+          <Link href="/aboutus">About Us</Link>
         </div>
         <div className={styles.linkWrapper}>
-          <Link href="/">Careers</Link>
-          <Link href="/">Community</Link>
-          <Link href="/">Privacy Policy</Link>
+          <Link href="/careers">Careers</Link>
+          <Link href="#community">Community</Link>
+          <Link href="/privacy">Privacy Policy</Link>
         </div>
         <MailInput />
       </div>

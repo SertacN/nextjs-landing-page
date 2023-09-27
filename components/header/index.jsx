@@ -11,19 +11,19 @@ function Header() {
           <Image src={Logo} alt="logo" width={146} height={24} />
         </Link>
         <nav className={styles.navContainer}>
-          <Link href="/" className={styles.navLink}>
+          <Link href="/pricing" className={styles.navLink}>
             Pricing
           </Link>
-          <Link href="/" className={styles.navLink}>
+          <Link href="/product" className={styles.navLink}>
             Product
           </Link>
-          <Link href="/" className={styles.navLink}>
+          <Link href="/aboutus" className={styles.navLink}>
             About Us
           </Link>
-          <Link href="/" className={styles.navLink}>
+          <Link href="/careers" className={styles.navLink}>
             Careers
           </Link>
-          <Link href="/" className={styles.navLink}>
+          <Link href="#community" className={styles.navLink}>
             Community
           </Link>
         </nav>

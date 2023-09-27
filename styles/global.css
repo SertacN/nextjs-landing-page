@@ -10,12 +10,18 @@
 body {
   font-size: 16px;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 div[data-nextjs-scroll-focus-boundary] {
   height: 100%;
 }
-
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 50px;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr min(1440px, 94%) 1fr;
@@ -28,4 +34,9 @@ div[data-nextjs-scroll-focus-boundary] {
 
 .container > .fluid {
   grid-column: 1 / -1;
+}
+.section {
+  display: flex;
+  gap: 23%;
+  justify-content: space-between;
 }

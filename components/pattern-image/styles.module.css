@@ -1,0 +1,15 @@
+.patternTopImg {
+  color: transparent;
+  position: absolute;
+  z-index: -1;
+  right: -60px;
+  top: -265px;
+}
+
+.patternBottomImg {
+  left: 0;
+  color: transparent;
+  position: absolute;
+  z-index: -1;
+  bottom: -1370px;
+}

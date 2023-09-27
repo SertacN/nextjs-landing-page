@@ -1,0 +1,54 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.form p {
+  color: var(--BrightRed);
+  font-size: 12px;
+  position: absolute;
+  bottom: -20px;
+  left: 16px;
+}
+
+.emailInput {
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.inputError {
+  border: 1px solid var(--BrightRed) !important;
+}
+
+.error {
+  color: var(--BrightRed);
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.formBtn {
+  background: var(--BrightRed);
+  color: var(--VaryLightGray);
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: ease-in-out 0.3s;
+}
+.formBtn:hover {
+  background: hsl(12, 79%, 68%);
+}
+
+.copyright {
+  color: var(--DarkGrayishBlue);
+  font-size: 14px;
+}
