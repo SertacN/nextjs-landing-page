@@ -16,21 +16,58 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Frontend Mentor - Manage landing page solution
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This is a solution to the [Manage landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Learn More
+## Table of contents
 
-To learn more about Next.js, take a look at the following resources:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### The challenge
 
-## Deploy on Vercel
+Users should be able to:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- See all testimonials in a horizontal slider
+- Receive an error message when the newsletter sign up `form` is submitted if:
+  - The `input` field is empty
+  - The email address is not formatted correctly
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Screenshot
+
+![](./screenshot.jpg)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Formik
+- Yup
+- esLint
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+
+## Author
+
+- Website - [SertacN](https://github.com/SertacN)
+- Frontend Mentor - [@SertacN](https://www.frontendmentor.io/profile/SertacN)
+- Linkedin - [@SertacN](https://www.linkedin.com/in/sertacn/)
